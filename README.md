@@ -1,15 +1,18 @@
 # ZurbSeaside
-This is a port of Torsten Bergmann's Bootstrap project for Seaside at
-https://github.com/astares/Seaside-Bootstrap
 
-Migrating to Zurb Foundation framework here: https://foundation.zurb.com/sites
+This is a Seaside Smalltalk implementation of the  Zurb Foundation framework at  https://foundation.zurb.com/sites
 
-PRE-ALPHA stage under development
+The demos provide the Smalltalk/Seaside  source code for each example.
+
+The source code provides fast ramp up of new websites using Seaside and Zurb.
+
+I am considering moving the JQuery stub examples into their own application.k
+
 
 
 
 This app is being developed with OpenResty nginx doing a proxy-pass to Seaside.
-All Zurb Foundation files are served via Nginx.
+
 
 An example nginx file is:
 
